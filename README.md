@@ -1,35 +1,14 @@
-# .
+### Vue Todo
 
-This template should help get you started developing with Vue 3 in Vite.
+FE: Vue.js (Option API) 사용
+BE: `json-server` 라이브러리로 db.json을 사용합니다
 
-## Recommended IDE Setup
+#### 기능
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+- [ ] 할 일 CRUD
+  - [ ] 할 일을 생성, 읽기, 수정, 삭제할 수 있다
+  => 필요 내용: 할 일, 기한
+  - [ ] 할 일을 완료 처리할 수 있다
+- [ ] 메모 댓글
+  - [ ] TODO에 메모 댓글을 작성할 수 있다
+  - [ ] 할 일, 기한, 메모 댓글, 완료 유무
